@@ -1,0 +1,191 @@
+.container {
+    box-sizing: border-box;
+    margin-right: 190px;
+    margin-left: 110px;
+    margin-bottom: 1px;
+    margin-top: -12px;
+    background-color: rgb(120,20,20);
+    width: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding: 10px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    margin-bottom: -30px;
+    padding-bottom: 3px;
+}
+
+nav{
+    background-color:#000;
+    color: white;
+    margin-right: -10px;
+    margin-left: -10px;
+    color: rgb(212, 198, 179);
+}
+
+.white {
+    background-color: white;
+    margin: 20px 400px 40px 5px;
+    position: relative;
+    bottom: 460px;
+    left: 407px;
+}
+
+#flex-row{
+    display: flex;
+    flex-direction: column; 
+    flex-basis: 12px;
+    justify-content: flex-start;
+}
+
+p,ul{
+    color: rgb(225, 212, 195);
+}
+
+.color{
+    color: #000;
+}
+
+.black-color{
+    color: #000;
+    position: relative;
+    left: 20px;
+}
+
+img[src="./CVMA_shared/photo.png"] {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 540px;
+    top: 20px;
+    clip-path: circle(40%);
+}
+
+.photo{
+   position: relative;
+   right: 45px;
+}
+
+h1,h2,h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700; 
+    color: white;
+    display: flex;
+    justify-content: center; 
+}
+
+p {
+    line-height: 1px;
+}
+
+h3{
+    background-color: rgb(194, 160, 119);
+    color: #000;
+    margin-right: 800px;
+    margin-left: -10px;
+    display: flex;
+   justify-content: flex-start;
+}
+
+.position{
+    background-color: rgb(194, 160, 119);
+    color: #000;
+    margin-right: 918px;
+    margin-left: -10px;
+    display: flex;
+    justify-content:flex-start;
+}
+
+.position{
+    background-color: rgb(209, 175, 135);
+    margin-right: 15px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+    text-align: inherit;
+}
+
+
+footer{
+    position: relative;
+    bottom: 480px;
+    left: 540px;
+}
+
+a[href="mailto:mamboundoumamboundouj@gmail.com"]{
+    display: flex;
+    justify-content: center;
+}
+
+a[href="tel:0788661955"]{
+   position: relative;
+   bottom: 45px;
+   display: flex;
+   justify-content: end;
+}
+
+a[href="https://www.google.fr/maps/@48.9048684,2.2127804,16.46z?entry=ttu"]{
+   position: relative;
+   top: 45px;
+}
+small{
+    position: relative;
+    top: 30px;
+    right: 180px;
+    color: rgb(225, 212, 195);
+}
+
+img[src="./CVMA_shared/GitHub.jpeg"]{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+}
+
+img[src="./CVMA_shared/linkedin.jpeg"]{
+    width: 40px;
+    height: 40px;
+}
+
+img[src="./CVMA_shared/twitter.jpeg"]{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+    color: #000;
+    position: relative; 
+    left: 20px;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+.ombre-survol-image {
+    transition: box-shadow 0.3s ease;
+}
+
+.ombre-survol-image:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+}
+
